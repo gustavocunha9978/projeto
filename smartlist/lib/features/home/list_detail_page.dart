@@ -40,7 +40,7 @@ class _ListDetailPageState extends State<ListDetailPage> {
                 Expanded(
                   child: TextField(
                     controller: controller,
-                    decoration: const InputDecoration(hintText: 'Add an item'),
+                    decoration: const InputDecoration(hintText: 'Add item na lista'),
                     onSubmitted: (_) => _addItem(),
                   ),
                 ),
